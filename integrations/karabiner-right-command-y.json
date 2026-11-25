@@ -1,0 +1,27 @@
+{
+  "title": "Compact Currency shortcuts",
+  "rules": [
+    {
+      "description": "Compact Currency: Right Command + Y",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": ["right_command"],
+              "optional": ["caps_lock"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f20",
+              "modifiers": ["left_command", "left_control", "left_option"],
+              "repeat": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
